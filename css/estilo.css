@@ -1,0 +1,206 @@
+
+/* Todos los tipos de letras seran de fuente arial*/
+*{
+	font-family: Arial,sans-serif;
+}
+
+
+
+
+/* Aplicado estilo para todo elemento en el body*/
+body{
+	padding:0;
+	margin:0;
+}
+
+.usuario{
+	font-size:15px;
+	text-align: right;
+	text-transform:none;
+	padding:25px 50px 20px 0px;
+}
+
+.usuario a{
+	padding:0px 20px 0px 0px;
+}
+
+/* Cabecera dividida en 3 secciones*/
+.header-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-section > div {
+    width: calc(100% / 3);
+}
+
+@media (max-width: 768px) {
+    .header-section > div {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Estilo para la cabecera*/
+.header{
+	background:#fff; /* Color de fondo blanco*/
+	color:#333333; /* Color de letra grisáceo*/
+	padding:15px 0px 10px 40px; /* Generar espacio de 30 pixeles general*/
+	font-size:30px;/* Tamaño del texto*/
+	font-weight: bold;/* Tamaño negrita*/
+	text-transform:uppercase; /*Transfomracion de texto: mayúsculas*/
+}
+
+.header2{
+
+	font-size: 20px;
+	text-align:center;
+	margin-top: 20px;
+	color:#333333;
+}
+
+.header2 a{
+
+	text-decoration: none; /* Sin subrayado en los enlaces*/
+	font-size: small;
+	color:#333333; /* Color de letra grisáceo*/
+
+}
+
+.header2 a:hover{
+
+	color:#333333; /* Color de letra grisáceo*/
+	text-decoration: none;
+}
+
+.header a{
+	color:#333333; /* Color de letra grisáceo*/
+}
+
+.header a:hover{
+	color:#333333; /* Color de letra grisáceo*/
+	text-decoration: none;
+}
+
+/*Menú*/
+.menu{
+	padding:10px 10px 10px 70px;
+	background:#333333;
+}
+
+/*Enlaces del menu*/
+.menu a{
+	text-decoration: none; /* Sin subrayado en los enlaces*/
+	font-size: small;
+	color:#fff; /* Color de letra blanco*/
+	padding:13px; /* Generar espacio de 10 pixeles general*/
+	background:#333333; /* Color de fondo grisáceo*/
+}
+
+/*Enlaces del menu cuando se le pasan el cursor por encima*/
+.menu a:hover{
+	background:#000; /* Color de fondo negro*/
+	text-decoration: none;
+	color:#fff;
+}
+
+.navbar-nav > li{
+  margin-left:30px;
+}
+
+.cuerpo{
+	background:#eaeaea;
+	padding:30px;
+	min-height:600px;
+}
+
+.footer{
+    position:relative;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+	background: #333333;
+	color: #aaa;
+	text-align: center;
+	font-size:10px;
+	padding:20px;
+}	
+
+.footer a{
+	text-decoration: none;
+	color:#aaa; /* Color de letra blanco*/
+}
+
+.footer a:hover{
+	background:#333333; /* Color de fondo negro*/
+	text-decoration: none;
+	color:#aaa;
+}
+
+.btn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+}
+
+.centrar_login{
+	width: 40%;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.producto{
+	display: inline-block;
+	margin-top: 1em;
+    margin-left: 80px;
+	width: 25%;
+	padding: 10px;
+	color: #333;
+}
+
+.img_producto {
+	border-radius: 1000px;
+	width: 100%;
+}
+
+.name_producto{
+	font-weight: bold;
+	text-align: left;
+	padding: 10px 0px 10px 0px;
+	color:#111;
+	font-size: 15px;
+
+}
+
+/*Para las estrellas*/
+.checked {
+  color: orange;
+}
+
+.precio{
+
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.text-green{
+	color: #0a0;
+}
+
+.imagen_carrito{
+	width:50px;
+	height:50px;
+	border-radius: 1000px;
+}
+
+/*Rectangulo de la cantidad de productos a elegir*/
+.cantidad {
+	width: 40px;
+	display: inline-block;
+}
+
+.imagen_portada{
+	width: 120%;
+	height: 0%;
+}
