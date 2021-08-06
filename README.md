@@ -1,8 +1,9 @@
+
 # Gym'sBro
 An e-commerce site built in HTML, CSS, JS and Bootstrap that manufactures sports nutrition products and gym clothing.
 
 ### Index ###
-![index](https://user-images.githubusercontent.com/22354280/127010736-06a46680-32bf-4fae-bd76-d3f1987c537c.png)
+![Sin título](https://user-images.githubusercontent.com/22354280/128573890-b40536d3-90c4-4d43-9761-2aa822282456.png)
 
 ### Proteinas (guest view) ### 
 ![Proteinas_guest](https://user-images.githubusercontent.com/22354280/127010766-1b688723-a4a6-4082-b956-447d29eb22b3.png)
