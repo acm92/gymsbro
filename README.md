@@ -1,6 +1,6 @@
 
 # Gym'sBro
-An e-commerce site built in HTML, CSS, JS and Bootstrap that manufactures sports nutrition products and gym clothing.
+An e-commerce site built in HTML, CSS, PHP, JS and Bootstrap that manufactures sports nutrition products and gym clothing.
 
 ### Index ###
 ![Sin título](https://user-images.githubusercontent.com/22354280/128573890-b40536d3-90c4-4d43-9761-2aa822282456.png)
